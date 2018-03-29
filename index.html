@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+
+      <div id='app' class='container'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title' class='center' class='page-header'>Guessing Game!</h1>
+          <h2 id='subtitle' class='center'>Guess a number between 1-100</h2>
+        </div>
+
+        <div id='main' class='center'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <h3>Guess Input</h3>
+            <input id='player-input' class='center' placeholder="#" maxlength='3' autofocu=autofocus></input>
+            <button id='submit' class='btn btn-warning'>Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <p>Previous Guesses:</p>
+            <ul>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button id='reset' class='btn btn-success'>Reset</button>
+            <button id='hint' class='btn btn-info'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer'>
+        <div>
+          <div class='col-sm-4'>
+            <img class='img-responsive'src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4>Project by Jacob Feinberg</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img class='img-responsive' src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>
