@@ -51,8 +51,7 @@ img {
     margin-right: 20px;
     font-size: 70px;
     border: 1px solid gray gray lightgray lightgray;
-    position: relative;
-    left: 50px;
+    background-color: transparent;
 }
 
 #submit {
@@ -61,10 +60,26 @@ img {
     border-radius: 90px;
     margin-bottom: 30px;
     margin-right: 20px;
-    position: relative;
-    top: 50px;
-    right: 20px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
     font-size: relative;
     border: 1px solid gray ;
 }
 
+#input-parent {
+    position: relative;
+    width: 160px;
+    margin: 5% auto 50px;
+}
+
+body {
+    background-image: url('background.jpg');
+}
+
+
+#app {
+   
+    width: 60%;
+    margin: 50px auto;
+}
