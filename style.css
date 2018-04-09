@@ -10,9 +10,15 @@ ul {
 }
 img {
     display: inline;
-    width: 200px;
-    height: 100px;
 }
+
+#signature {
+    font-size: 30px;
+    margin: 10px;
+    padding: 10% 0 0 8%;
+
+}
+
 .button {
     color: gray;
 }
@@ -84,7 +90,7 @@ img {
 }
 
 body {
-    background-image: url('background.jpg');
+    background-image: url('img/background.jpg');
 }
 
 
